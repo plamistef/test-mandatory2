@@ -1,7 +1,28 @@
-<!ELEMENT Stocks (Product+)>
-    <!ELEMENT Product (brand, model, price, shippingCost, amount)>
-        <!ELEMENT brand (#PCDATA)>
-        <!ELEMENT model (#PCDATA)>
-        <!ELEMENT price (#PCDATA)>
-        <!ELEMENT shippingCost (#PCDATA)>
-        <!ELEMENT amount (#PCDATA)>
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE Stock SYSTEM "Stock.dtd">
+
+<Stocks>
+    <Product>
+        <brand>iPhone 12</brand>
+        <model>Apple</model>
+        <price>10000 DKK</price>
+        <shippingCost>125 DKK</shippingCost>
+        <amount>5000</amount>
+    </Product>
+        <Product>
+        <brand>iPhone 11</brand>
+        <model>Apple</model>
+        <price>6000 DKK</price>
+        <shippingCost>125 DKK</shippingCost>
+        <amount>4321</amount>
+    </Product>
+    </Product>
+        <Product>
+        <brand>XPS 13</brand>
+        <model>Dell</model>
+        <price>12000 DKK</price>
+        <shippingCost>150 DKK</shippingCost>
+        <amount>1234</amount>
+    </Product>
+</Stocks>
