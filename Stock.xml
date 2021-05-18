@@ -1,0 +1,7 @@
+<!ELEMENT Stocks (Product+)>
+    <!ELEMENT Product (brand, model, price, shippingCost, amount)>
+        <!ELEMENT brand (#PCDATA)>
+        <!ELEMENT model (#PCDATA)>
+        <!ELEMENT price (#PCDATA)>
+        <!ELEMENT shippingCost (#PCDATA)>
+        <!ELEMENT amount (#PCDATA)>
