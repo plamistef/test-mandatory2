@@ -3,8 +3,5 @@
 
 <Company>
     <Name>Telenor</Name>
-    <Offices>
-        <Office> Copenhagen </Office>
-        <Office> Stockholm </Office>
-    </Offices>
+    <Office> Copenhagen </Office>
 </Company>

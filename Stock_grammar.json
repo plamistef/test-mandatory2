@@ -1,0 +1,28 @@
+{
+  "title":"Stock",
+  "type":"object",
+  "properties":{
+    "brand":{
+      "type":"string"
+    },
+    "model":{
+      "type":"string"
+    },
+    "price":{
+      "type":"string"
+    },
+    "shippingCost":{
+      "type":"string"
+    },
+    "amount":{
+      "type":"integer"
+    }
+  },
+  "required":[
+    "brand",
+    "model",
+    "price",
+    "shippingCost",
+    "amount"
+  ]
+}
