@@ -27,7 +27,7 @@ def validate_json(json_data):
 
 
 # Convert json to python object.
-jsonData = json.loads('{"brand" : "10","model": "DonOfDen","price":1234567890,"shippingCost":123,"amount":123}')
+jsonData = json.loads('{"brand" : "Apple","model": "11 pro","price":123,"shippingCost":123,"amount":123}')
 
 # validate it
 is_valid, msg = validate_json(jsonData)
