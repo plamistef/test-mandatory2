@@ -1,0 +1,23 @@
+
+   {
+    "brand": "iPhone 12",
+    "model": "Apple",
+    "price": "10000 DKK",
+    "shippingCost": "125 DKK",
+    "amount": "5000"
+ },
+ {
+    "brand": "iPhone 11",
+    "model": "Apple",
+    "price": "6000 DKK",
+    "shippingCost": "125 DKK",
+    "amount": "4321"
+ },
+ {
+    "brand": "XPS 13",
+    "model": "Dell",
+    "price": "12000 DKK",
+    "shippingCost": "150 DKK",
+    "amount": "1234"
+ }
+]
