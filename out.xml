@@ -1,12 +1,4 @@
-<CheckProduct>
-  <model>Dell</model>
-  <amount>1234</amount>
-</CheckProduct>
-<CheckProduct>
-  <model>Apple</model>
-  <amount>4321</amount>
-</CheckProduct>
-<CheckProduct>
-  <model>Apple</model>
-  <amount>5000</amount>
-</CheckProduct>
+<Error>
+  <model>12 Pro Max</model>
+  <message>The model is not available at the moment</message>
+</Error>
