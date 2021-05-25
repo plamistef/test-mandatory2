@@ -4,22 +4,22 @@
 
 <Stock>
     <Product>
-        <brand>iPhone 12</brand>
-        <model>Apple</model>
+        <brand>Apple</brand>
+        <model>11 Pro</model>
         <price>10000 DKK</price>
         <shippingCost>125 DKK</shippingCost>
         <amount>5000</amount>
     </Product>
     <Product>
-        <brand>iPhone 11</brand>
-        <model>Apple</model>
+        <brand>Apple</brand>
+        <model>12 Pro Max</model>
         <price>6000 DKK</price>
         <shippingCost>125 DKK</shippingCost>
         <amount>4321</amount>
     </Product>
     <Product>
-        <brand>XPS 13</brand>
-        <model>Dell</model>
+        <brand>Dell</brand>
+        <model>XPS 13</model>
         <price>12000 DKK</price>
         <shippingCost>150 DKK</shippingCost>
         <amount>1234</amount>
