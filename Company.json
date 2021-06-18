@@ -1,7 +1,5 @@
-{
-    "Name": "Telenor",
-    "Offices": [
-       "Copenhagen",
-       "Stockholm"
-    ]
+[{
+    "name": "Telenor",
+    "office": "Copenhagen"
  }
+]

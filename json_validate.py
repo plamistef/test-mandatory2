@@ -3,17 +3,17 @@ import jsonschema
 from jsonschema import validate
 
 
-def get_schema():
+def get_schema(name):
     """This function loads the given schema available"""
-    with open('Stock.json', 'r') as file:
+    with open(name + '_grammar.json', 'r') as file:
         schema = json.load(file)
     return schema
 
 
-def validate_json(json_data):
+def validate_json(json_data, name):
     """REF: https://json-schema.org/ """
     # Describe what kind of json you expect.
-    execute_api_schema = get_schema()
+    execute_api_schema = get_schema(name)
 
     try:
         validate(instance=json_data, schema=execute_api_schema)
@@ -25,13 +25,22 @@ def validate_json(json_data):
     message = "Given JSON data is Valid"
     return True, message
 
+def validation(name):
+    with open(name + '.json') as f:
+       d = json.load(f)
 
-# Convert json to python object.
-jsonData = json.loads('{"brand" : "Apple","model": "11 pro","price":123,"shippingCost":123,"amount":123}')
+    for product in d:
+        is_valid, msg = validate_json(product, name)
+        print(msg)
 
+<<<<<<< HEAD
 
 
 
 # validate it
 is_valid, msg = validate_json(jsonData)
 print(msg)
+=======
+validation("Company")
+validation("Stock")
+>>>>>>> 92bde4fb7945ed40cb18c63ae40138d942ed648a

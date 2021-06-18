@@ -1,3 +1,3 @@
-<!ELEMENT Company (Name, Offices(Office+))>
+<!ELEMENT Company (Name, Office)>
 <!ELEMENT Name (#PCDATA)>
-<!ELEMENT Offices (Office+))>
+<!ELEMENT Office (#PCDATA))>
